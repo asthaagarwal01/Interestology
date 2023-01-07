@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <div class="logo">
+                <img src="images/logo.png">
+                <h4>INTERESTOLOGY</h4>
+            </div>
+        </header>
+
+        <div class="content">
+            <h1>Getting <span>bored ?</span><img src="images/think.png"></h1>
+            <p id="orange">Find your interest here<br> within three steps</p>
+        </div>
+        
+        <div class="buttons">
+
+
+            <button class="button1" onclick="down()">Select Hobby</button>
+            
+
+
+            <button class="button2"><p>
+                <div class="lock" id="locks">
+                    <p id="here">Locked</p>
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+            </p></button>
+            
+
+
+            <button class="button3"><p>
+                <div class="lock" id="locks2">
+                    <p id="there">Locked</p>
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                </div>
+            </p></button>
+            
+
+        </div>
+       
+        <div id="sublisto" class="options1">
+            <ul>
+                <li onclick="down2()">Cooking<i class="fa-solid fa-utensils"></i></li>
+                <li onclick="down3()">Travelling<i class="fa-solid fa-plane"></i></li>
+                <li onclick="down4()" id="code">Coding<i class="fa-solid fa-code"></i></li>
+                <li onclick="down5()">Reading<i class="fa-solid fa-book"></i></li>
+            </ul>
+        </div>
+
+        <div id="sublistc" class="options2">
+            <ul>
+            <li onclick="down6()">Italian</li>
+            <li onclick="down7()">North Indian</li>
+            <li onclick="down8()">Chinese</li>
+            <li onclick="down9()">Mexican</li>
+            </ul>
+        </div>
+        <div id="sublistt" class="options2">
+            <ul>
+            <li onclick="down10()">Hill stations</li>
+            <li onclick="down11()">Beaches</li>
+            <li onclick="down12()">Religious regions</li>
+            <li onclick="down13()">Sceneric places</li>
+            </ul>
+        </div>
+        <div id="sublistp" class="options2">
+            <ul>
+            <li onclick="down14()">C++</li>
+            <li onclick="down15()">Python</li>
+            <li onclick="down16()">Java</li>
+            <li onclick="down17()">C</li>
+            </ul>
+        </div>
+        <div id="sublistr" class="options2">
+            <ul>
+            <li onclick="down18()">Self help</li>
+            <li onclick="down19()">Fiction</li>
+            <li onclick="down20()">Mythology</li>
+            <li onclick="down21()">Buisness</li>
+            </ul>
+        </div>
+
+        <div id="c1" class="options3">
+            <ul>
+            <li><a href="https://youtu.be/l5F9WfVRluM">Snacks</a></li>
+            <li><a href="https://www.delish.com/cooking/menus/g2616/italian-dinner-recipes/">Dinner</a></li>
+            <li><a href="https://youtu.be/dmL2H1FM9K8">Breakfast</a></li>
+            <li><a href="https://youtu.be/MyPKPRv0q7s">Lunch</a></li>
+            </ul>
+        </div>
+
+       <div id="c2" class="options3">
+           <ul>
+            <li><a href="https://youtu.be/GBwC9QeUSAc">Breakfast</a></li>
+            <li><a href="https://youtu.be/M_ncAJhIaIU">Lunch</a></li>
+            <li><a href="https://youtu.be/fJi8b7_XuH0">Snacks</a></li>
+            <li><a href="https://youtu.be/X83aePgWCrM">Dinner</a></li>
+           </ul>
+       </div>
+
+       <div id="c3" class="options3">
+        <ul>
+            <li><a href="https://youtu.be/yN6g-P_8khY">Breakfast</a></li>
+            <li><a href="https://youtu.be/pGbrfOP2B3A">Lunch</a></li>
+            <li><a href="https://youtu.be/ASgtlp5mAAQ">Snacks</a></li>
+            <li><a href="https://youtu.be/1MrFdntfy-Q">Dinner</a></li>
+           </ul>
+       </div>
+
+       <div id="c4" class="options3">
+        <ul>
+            <li><a href="https://youtu.be/nBYbfgIPV5E">Breakfast</a></li>
+            <li><a href="https://youtu.be/B-VivdiyL9c">Lunch</a></li>
+            <li><a href="https://youtu.be/7BNRilOA2l4">Snacks</a></li>
+            <li><a href="https://youtu.be/kfNX6bLjVaE">Dinner</a></li>
+           </ul>
+       </div>
+
+       <div id="t1" class="options3">
+        <ul>
+            <li><a href="https://www.makemytrip.com/tripideas/hills-mountains-destinations">Makemytrip</a></li>
+            <li><a href="https://www.goibibo.com/destinations/theme-hill-station/">Goibibo</a></li>
+            <li><a href="https://www.yatra.com/india-tour-packages/hill-station-holidays">Yatra</a></li>
+            <li><a href="https://www.tripadvisor.in/ShowTopic-g293860-i511-k3011454-The_best_hill_station_in_India-India.html">Tripadvisor</a></li>
+           </ul>
+       </div>
+
+       <div id="t2" class="options3">
+        <ul>
+            <li><a href="https://www.makemytrip.com/tripideas/beach-destinations">Makemytrip</a></li>
+            <li><a href="https://www.goibibo.com/destinations/theme-beach/">Goibibo</a></li>
+            <li><a href="https://www.yatra.com/international-tour-packages/beach-holidays-in-india">Yatra</a></li>
+            <li><a href="https://www.tripadvisor.in/Attractions-g293860-Activities-c61-t52-India.html">Tripadvisor</a></li>
+           </ul>
+       </div>
+
+       <div id="t4" class="options3">
+        <ul>
+            <li><a href="https://www.makemytrip.com/tripideas/places">Makemytrip</a></li>
+            <li><a href="https://www.goibibo.com/ask/which-are-the-most-beautiful-places-to-see-at-lavasa-lavasa-57999a71bd1d6e2d396d929d/">Goibibo</a></li>
+            <li><a href="https://www.yatra.com/international-tour-packages/nature-walks-holidays-in-india">Yatra</a></li>
+            <li><a href="https://www.tripadvisor.in/ShowUserReviews-g297635-d10302005-r531560546-Vayalada-Kozhikode_Kozhikode_District_Kerala.html">Tripadvisor</a></li>
+           </ul>
+       </div>
+
+       <div id="t3" class="options3">
+        <ul>
+            <li><a href="https://www.makemytrip.com/tripideas/blog/top-5-religious-places-to-ring-in-the-new-year">Makemytrip</a></li>
+            <li><a href="https://www.goibibo.com/destinations/theme-religious/">Goibibo</a></li>
+            <li><a href="https://www.yatra.com/india-tour-packages/religious-tours">Yatra</a></li>
+            <li><a href="https://www.tripadvisor.in/Attractions-g297682-Activities-c47-t10-Uttar_Pradesh.html">Tripadvisor</a></li>
+           </ul>
+       </div>
+       
+       <div id="p1" class="options3">
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/c-plus-plus/">GFG</a></li>
+            <li><a href="https://www.programiz.com/cpp-programming">Programiz</a></li>
+            <li><a href="https://www.tutorialspoint.com/cplusplus/index.htm">Tutorials point</a></li>
+            <li><a href="https://www.w3schools.com/cpp/">w3schools</a></li>
+           </ul>
+       </div>
+
+       <div id="p2" class="options3">
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/python-programming-language/">GFG</a></li>
+            <li><a href="https://www.programiz.com/python-programming/online-compiler/">Programiz</a></li>
+            <li><a href="https://www.tutorialspoint.com/python/index.htm">Tutorials point</a></li>
+            <li><a href="https://www.w3schools.com/python/">w3schools</a></li>
+           </ul>
+       </div>
+
+       <div id="p3" class="options3">
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/java/">GFG</a></li>
+            <li><a href="https://www.programiz.com/java-programming">Programiz</a></li>
+            <li><a href="https://www.tutorialspoint.com/java/index.htm">Tutorials point</a></li>
+            <li><a href="https://www.w3schools.com/java/">w3schools</a></li>
+           </ul>
+       </div>
+
+       <div id="p4" class="options3">
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/c-programming-language/">GFG</a></li>
+            <li><a href="https://www.programiz.com/c-programming">Programiz</a></li>
+            <li><a href="https://www.tutorialspoint.com/cprogramming/index.htm">Tutorials point</a></li>
+            <li><a href="https://www.w3schools.com/c/">w3schools</a></li>
+           </ul>
+       </div>
+
+       <div id="r1" class="options3">
+        <ul>
+            <li><a href="https://www.amazon.in/Personal-Development-Self-Help-Books/b?ie=UTF8&node=1318132031">Amazon</a></li>
+            <li><a href="https://www.goodreads.com/genres/personal-development">Goodreads</a></li>
+            <li><a href="https://www.bookbub.com/blog/best-self-help-books">Book hub</a></li>
+            <li><a href="https://www.bookgeeks.in/non-fiction/self-help/">Book geeks</a></li>
+           </ul>
+       </div>
+
+       <div id="r2" class="options3">
+        <ul>
+            <li><a href="https://www.amazon.in/literature-fiction-books/b?ie=UTF8&node=1318157031">Amazon</a></li>
+            <li><a href="https://www.goodreads.com/genres/fiction">Goodreads</a></li>
+            <li><a href="https://www.bookbub.com/categories/literary-fiction-ebooks">Book hub</a></li>
+            <li><a href="https://www.bookgeeks.in/fiction/">Book geeks</a></li>
+           </ul>
+       </div>
+
+       <div id="r3" class="options3">
+        <ul>
+            <li><a href="https://www.amazon.in/b?ie=UTF8&node=15412173031">Amazon</a></li>
+            <li><a href="https://www.goodreads.com/shelf/show/mythology">Goodreads</a></li>
+            <li><a href="https://www.bookhubpublishing.com/product-category/mythology/">Book hub</a></li>
+            <li><a href="https://www.bookgeeks.in/non-fiction/religion-mythology/">Book geeks</a></li>
+           </ul>
+       </div>
+
+       <div id="r4" class="options3">
+        <ul>
+            <li><a href="https://www.amazon.in/Business-Strategy-Management-Books/b?ie=UTF8&node=1318070031">Amazon</a></li>
+            <li><a href="https://www.goodreads.com/shelf/show/business">Goodreads</a></li>
+            <li><a href="https://www.bookbub.com/categories/business-ebooks">Book hub</a></li>
+            <li><a href="https://www.bookgeeks.in/non-fiction/economy-and-science/">Book geeks</a></li>
+           </ul>
+       </div>
+
+
+
+       
+        
+
+    </body>
+</html>

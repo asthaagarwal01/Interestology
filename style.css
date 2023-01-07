@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    border: 0;
+    
+}
+
+body
+{
+    background: rgba(241, 236, 249, 0.43);
+}
+
+.content
+{
+   margin-top: -20px;
+}
+
+.logo
+{
+    padding: 25px;
+    display: flex;
+}
+
+.logo img
+{
+    height: 65px;
+    width: 70px;
+}
+
+.logo h4
+{
+    margin-top: 25px;
+    font-family: 'Stylish';
+    color: black;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.content
+{
+    
+    text-align: center;
+    align-items: center;
+}
+
+.think
+{
+    display: flex;
+}
+
+.content img
+{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.content h1
+{
+    font-family: 'SF Pro Display';
+    font-size: 55px;
+}
+
+.content h1 span
+{
+    background: linear-gradient(92.43deg, #F809FD 51.32%, rgba(115, 0, 117, 0.75) 89.19%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+#orange
+{
+    margin: 20px;
+    color: #534A50;
+    font-size: 22px;
+    font-family: 'SF Pro Display';
+    margin-top: 30px;
+    width: 220px;
+    height: 38px;
+    background-color: white;
+    text-align: center;
+    margin-left: 615px;
+    text-align: center;
+    align-items: center;
+    border-radius: 11px;
+}
+
+.content p
+{
+    padding: 20px;
+    margin-top: -5px;
+}
+
+.buttons
+{
+    display: flex;
+    
+    justify-content: center;
+    margin: 10px;
+}
+
+button
+{
+    height: 60px;
+    width: 180px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.button1
+{
+    background: linear-gradient(86.33deg, #FFA800 0%, #BD7D00 98.15%);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(-4px 3px 70px rgba(255, 168, 0, 0.41));
+}
+
+.lock
+{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.lock p 
+{
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.lock i
+{
+    padding: 5px;
+}
+
+.button2
+{
+    background: linear-gradient(86.33deg, #00FF66 0%, #00913A 98.15%);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 82px rgba(4, 252, 103, 0.42));
+}
+
+.button3
+{
+    background: linear-gradient(86.33deg, #FF00A8 0%, #91005F 98.15%);
+    cursor: pointer;
+    filter: drop-shadow(17px 9px 56px rgba(255, 0, 168, 0.35));
+}
+
+
+
+.options1 ul li
+{
+    list-style: none;
+    width: 150px;
+    height: 25px;
+    background: rgba(241, 243, 168, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 15px;
+    border: solid 2px rgb(238, 255, 6);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.options1
+{
+   margin-left: 230px;
+   position: absolute;
+   display: none;
+}
+
+.options1 li i
+{
+    padding-left: 15px;
+    color: #38360b;
+}
+
+#code
+{
+padding-left: -15px;
+}
+
+.options2 ul li
+{
+    list-style: none;
+    width: 150px;
+    height: 25px;
+    background: rgba(166, 245, 161, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 15px;
+    border: solid 2px rgb(110, 255, 6);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.options2
+{
+    margin-left: 600px;
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+.options3 ul li
+{
+    list-style: none;
+    width: 150px;
+    height: 25px;
+    background: rgba(247, 161, 234, 0.364);
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 15px;
+    border: solid 2px rgb(255, 6, 230);
+    cursor: pointer;
+}
+
+.options3
+{
+    margin-left: 965px;
+    margin-top: -286px;
+    display: none;
+}
+
+ ul li a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ ul li a:hover , .options2 ul li:hover , .options1 ul li:hover 
+{
+    color: black;
+}
+
+.cong
+{
+    font-family: 'SF Pro Display';
+    color: #F809FD;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px;
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
