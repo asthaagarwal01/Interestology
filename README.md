@@ -12,3 +12,5 @@ Features:
  - Likewise , after the selecting the hobby the user is required to select his/her interest to unlock the resource option.
  - Finally , the resource option becomes available to the user for choosing the resource.
  
+ ![Interestology](https://user-images.githubusercontent.com/86525559/211139973-9bbd47f7-75da-4b52-b8ed-947014da8f4b.jpg)
+ 
