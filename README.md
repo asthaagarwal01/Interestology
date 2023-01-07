@@ -1,6 +1,7 @@
 # Interestology
 
 Hello everyone,
+
 Interestology is a mini project based on Front-end programming.It helps people to find thier intrest and choose from the available resouces to learn about thier choosen interest/hobby.
 
 Languages : HTML , CSS, Javascript
